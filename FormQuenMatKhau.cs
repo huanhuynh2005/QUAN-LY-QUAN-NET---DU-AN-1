@@ -8,23 +8,17 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using Ui_DuAn;
+using MimeKit;
+using MailKit.Net.Smtp;
+using static System.Windows.Forms.VisualStyles.VisualStyleElement.ListView;
 
 namespace UIDuAn1
 {
-    public partial class UC_TaiKhoan : UserControl
+    public partial class FormQuenMatKhau : Form
     {
-        public UC_TaiKhoan()
+        public FormQuenMatKhau()
         {
             InitializeComponent();
-        }
-
-        private void label9_Click(object sender, EventArgs e)
-        {
-
-        }
-        private void btnDoiMatKhau_Click(object sender, EventArgs e)
-        {
-
         }
     }
 }
