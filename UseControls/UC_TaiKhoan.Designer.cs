@@ -405,7 +405,7 @@
             this.label9.Size = new System.Drawing.Size(207, 37);
             this.label9.TabIndex = 128;
             this.label9.Text = "Đổi mật khẩu";
-            this.label9.Click += new System.EventHandler(this.label9_Click);
+//            this.label9.Click += new System.EventHandler(this.label9_Click);
             // 
             // btnDoiMatKhau
             // 
@@ -429,7 +429,7 @@
             this.btnDoiMatKhau.Size = new System.Drawing.Size(147, 44);
             this.btnDoiMatKhau.TabIndex = 129;
             this.btnDoiMatKhau.Text = "Đổi mật khẩu";
-            this.btnDoiMatKhau.Click += new System.EventHandler(this.btnDoiMatKhau_Click);
+           // this.btnDoiMatKhau.Click += new System.EventHandler(this.btnDoiMatKhau_Click);
             // 
             // btnTimKiem
             // 
