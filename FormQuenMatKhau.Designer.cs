@@ -60,8 +60,14 @@
             this.btnXacNhan.Location = new System.Drawing.Point(242, 330);
             this.btnXacNhan.Name = "btnXacNhan";
             this.btnXacNhan.Size = new System.Drawing.Size(115, 41);
+<<<<<<< Updated upstream
             this.btnXacNhan.TabIndex = 143;
             this.btnXacNhan.Text = "Xác nhận";
+=======
+            this.btnXacNhan.TabIndex = 142;
+            this.btnXacNhan.Text = "Xác nhận";
+            this.btnXacNhan.Click += new System.EventHandler(this.btnXacNhan_Click);
+>>>>>>> Stashed changes
             // 
             // btnThoat
             // 
