@@ -240,7 +240,7 @@
             this.btnThoat.Size = new System.Drawing.Size(115, 41);
             this.btnThoat.TabIndex = 132;
             this.btnThoat.Text = "Thoát";
-            this.btnThoat.Click += new System.EventHandler(this.btnThoat_Click);
+//            this.btnThoat.Click += new System.EventHandler(this.btnThoat_Click);
             // 
             // btnDangNhap
             // 
@@ -264,7 +264,7 @@
             this.btnDangNhap.Size = new System.Drawing.Size(115, 41);
             this.btnDangNhap.TabIndex = 133;
             this.btnDangNhap.Text = "Đăng nhập";
-            this.btnDangNhap.Click += new System.EventHandler(this.btnDangNhap_Click_1);
+           // this.btnDangNhap.Click += new System.EventHandler(this.btnDangNhap_Click_1);
             // 
             // LoginForm
             // 
