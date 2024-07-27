@@ -39,7 +39,7 @@
             this.label12 = new System.Windows.Forms.Label();
             this.txtTaiKhoan = new Guna.UI2.WinForms.Guna2TextBox();
             this.txtThoiGianSuDung = new Guna.UI2.WinForms.Guna2TextBox();
-            this.txtMatKhau = new Guna.UI2.WinForms.Guna2TextBox();
+            this.txtMatkhau = new Guna.UI2.WinForms.Guna2TextBox();
             this.txtMaKhachHang = new Guna.UI2.WinForms.Guna2TextBox();
             this.label5 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
@@ -182,30 +182,30 @@
             this.txtThoiGianSuDung.Size = new System.Drawing.Size(211, 35);
             this.txtThoiGianSuDung.TabIndex = 104;
             // 
-            // txtMatKhau
+            // txtMatkhau
             // 
-            this.txtMatKhau.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            this.txtMatkhau.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.txtMatKhau.AutoRoundedCorners = true;
-            this.txtMatKhau.BorderRadius = 16;
-            this.txtMatKhau.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.txtMatKhau.DefaultText = "";
-            this.txtMatKhau.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
-            this.txtMatKhau.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
-            this.txtMatKhau.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.txtMatKhau.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.txtMatKhau.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txtMatKhau.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.txtMatKhau.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txtMatKhau.Location = new System.Drawing.Point(765, 119);
-            this.txtMatKhau.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.txtMatKhau.Name = "txtMatKhau";
-            this.txtMatKhau.PasswordChar = '\0';
-            this.txtMatKhau.PlaceholderText = "Địa chỉ";
-            this.txtMatKhau.SelectedText = "";
-            this.txtMatKhau.Size = new System.Drawing.Size(211, 35);
-            this.txtMatKhau.TabIndex = 103;
+            this.txtMatkhau.AutoRoundedCorners = true;
+            this.txtMatkhau.BorderRadius = 16;
+            this.txtMatkhau.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.txtMatkhau.DefaultText = "";
+            this.txtMatkhau.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
+            this.txtMatkhau.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
+            this.txtMatkhau.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.txtMatkhau.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.txtMatkhau.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.txtMatkhau.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.txtMatkhau.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.txtMatkhau.Location = new System.Drawing.Point(765, 119);
+            this.txtMatkhau.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.txtMatkhau.Name = "txtMatkhau";
+            this.txtMatkhau.PasswordChar = '\0';
+            this.txtMatkhau.PlaceholderText = "Mật khẩu";
+            this.txtMatkhau.SelectedText = "";
+            this.txtMatkhau.Size = new System.Drawing.Size(211, 35);
+            this.txtMatkhau.TabIndex = 103;
             // 
             // txtMaKhachHang
             // 
@@ -474,7 +474,7 @@
             this.Controls.Add(this.label12);
             this.Controls.Add(this.txtTaiKhoan);
             this.Controls.Add(this.txtThoiGianSuDung);
-            this.Controls.Add(this.txtMatKhau);
+            this.Controls.Add(this.txtMatkhau);
             this.Controls.Add(this.txtMaKhachHang);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label2);
@@ -498,7 +498,7 @@
         private System.Windows.Forms.Label label12;
         private Guna.UI2.WinForms.Guna2TextBox txtTaiKhoan;
         private Guna.UI2.WinForms.Guna2TextBox txtThoiGianSuDung;
-        private Guna.UI2.WinForms.Guna2TextBox txtMatKhau;
+        private Guna.UI2.WinForms.Guna2TextBox txtMatkhau;
         private Guna.UI2.WinForms.Guna2TextBox txtMaKhachHang;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label2;
