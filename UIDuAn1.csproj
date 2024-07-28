@@ -202,6 +202,15 @@
     <Compile Include="MainForm.designer.cs">
       <DependentUpon>MainForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="Model\CaLam.cs" />
+    <Compile Include="Model\HoaDon.cs" />
+    <Compile Include="Model\HoaDonChiTiet.cs" />
+    <Compile Include="Model\KhachHang.cs" />
+    <Compile Include="Model\MayTinh.cs" />
+    <Compile Include="Model\NhanVien.cs" />
+    <Compile Include="Model\QUANLYQUANNETContext.cs" />
+    <Compile Include="Model\ThucDon.cs" />
+    <Compile Include="Model\VaiTro.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="UseControls\UC_TaiKhoan.cs">

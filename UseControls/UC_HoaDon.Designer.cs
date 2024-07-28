@@ -51,7 +51,7 @@
             this.btnThem = new Guna.UI2.WinForms.Guna2GradientButton();
             this.btnSua = new Guna.UI2.WinForms.Guna2GradientButton();
             this.btnXoa = new Guna.UI2.WinForms.Guna2GradientButton();
-            this.btnDoiMatKhau = new Guna.UI2.WinForms.Guna2GradientButton();
+            this.btnLamMoi = new Guna.UI2.WinForms.Guna2GradientButton();
             this.btnTimKiem = new Guna.UI2.WinForms.Guna2GradientButton();
             ((System.ComponentModel.ISupportInitialize)(this.dtgHoaDon)).BeginInit();
             this.SuspendLayout();
@@ -434,28 +434,28 @@
             this.btnXoa.TabIndex = 135;
             this.btnXoa.Text = "Xóa";
             // 
-            // btnDoiMatKhau
+            // btnLamMoi
             // 
-            this.btnDoiMatKhau.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.btnDoiMatKhau.Animated = true;
-            this.btnDoiMatKhau.AutoRoundedCorners = true;
-            this.btnDoiMatKhau.BorderRadius = 21;
-            this.btnDoiMatKhau.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.btnDoiMatKhau.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.btnDoiMatKhau.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.btnDoiMatKhau.DisabledState.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.btnDoiMatKhau.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.btnDoiMatKhau.FillColor = System.Drawing.Color.SkyBlue;
-            this.btnDoiMatKhau.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(50)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.btnDoiMatKhau.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.btnDoiMatKhau.ForeColor = System.Drawing.Color.White;
-            this.btnDoiMatKhau.HoverState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(50)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.btnDoiMatKhau.HoverState.FillColor2 = System.Drawing.Color.SkyBlue;
-            this.btnDoiMatKhau.Location = new System.Drawing.Point(808, 700);
-            this.btnDoiMatKhau.Name = "btnDoiMatKhau";
-            this.btnDoiMatKhau.Size = new System.Drawing.Size(147, 44);
-            this.btnDoiMatKhau.TabIndex = 134;
-            this.btnDoiMatKhau.Text = "Làm mới";
+            this.btnLamMoi.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.btnLamMoi.Animated = true;
+            this.btnLamMoi.AutoRoundedCorners = true;
+            this.btnLamMoi.BorderRadius = 21;
+            this.btnLamMoi.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.btnLamMoi.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.btnLamMoi.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btnLamMoi.DisabledState.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btnLamMoi.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.btnLamMoi.FillColor = System.Drawing.Color.SkyBlue;
+            this.btnLamMoi.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(50)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.btnLamMoi.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.btnLamMoi.ForeColor = System.Drawing.Color.White;
+            this.btnLamMoi.HoverState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(50)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.btnLamMoi.HoverState.FillColor2 = System.Drawing.Color.SkyBlue;
+            this.btnLamMoi.Location = new System.Drawing.Point(808, 700);
+            this.btnLamMoi.Name = "btnLamMoi";
+            this.btnLamMoi.Size = new System.Drawing.Size(147, 44);
+            this.btnLamMoi.TabIndex = 134;
+            this.btnLamMoi.Text = "Làm mới";
             // 
             // btnTimKiem
             // 
@@ -488,7 +488,7 @@
             this.Controls.Add(this.btnThem);
             this.Controls.Add(this.btnSua);
             this.Controls.Add(this.btnXoa);
-            this.Controls.Add(this.btnDoiMatKhau);
+            this.Controls.Add(this.btnLamMoi);
             this.Controls.Add(this.txtTimKiem);
             this.Controls.Add(this.cbMaMayTinh);
             this.Controls.Add(this.cbMaKhachHang);
@@ -507,7 +507,6 @@
             this.Controls.Add(this.dtgHoaDon);
             this.Name = "UC_HoaDon";
             this.Size = new System.Drawing.Size(999, 758);
-            this.Load += new System.EventHandler(this.UC_HoaDon_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dtgHoaDon)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -535,7 +534,7 @@
         private Guna.UI2.WinForms.Guna2GradientButton btnThem;
         private Guna.UI2.WinForms.Guna2GradientButton btnSua;
         private Guna.UI2.WinForms.Guna2GradientButton btnXoa;
-        private Guna.UI2.WinForms.Guna2GradientButton btnDoiMatKhau;
+        private Guna.UI2.WinForms.Guna2GradientButton btnLamMoi;
         private Guna.UI2.WinForms.Guna2GradientButton btnTimKiem;
     }
 }

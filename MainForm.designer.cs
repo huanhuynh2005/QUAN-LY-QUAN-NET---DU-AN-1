@@ -69,6 +69,7 @@
             this.label2.Size = new System.Drawing.Size(47, 14);
             this.label2.TabIndex = 10;
             this.label2.Text = "Nguyen";
+//            this.label2.Click += new System.EventHandler(this.label2_Click);
             // 
             // label1
             // 

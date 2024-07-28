@@ -115,7 +115,7 @@
             this.txtMatKhauCu.Location = new System.Drawing.Point(628, 217);
             this.txtMatKhauCu.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.txtMatKhauCu.Name = "txtMatKhauCu";
-            this.txtMatKhauCu.PasswordChar = '\0';
+            this.txtMatKhauCu.PasswordChar = '*';
             this.txtMatKhauCu.PlaceholderText = "Mật khẩu cũ";
             this.txtMatKhauCu.SelectedText = "";
             this.txtMatKhauCu.Size = new System.Drawing.Size(211, 35);
@@ -165,7 +165,7 @@
             this.txtMatKhauMoi.Location = new System.Drawing.Point(629, 321);
             this.txtMatKhauMoi.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.txtMatKhauMoi.Name = "txtMatKhauMoi";
-            this.txtMatKhauMoi.PasswordChar = '\0';
+            this.txtMatKhauMoi.PasswordChar = '*';
             this.txtMatKhauMoi.PlaceholderText = "Mật khẩu mới";
             this.txtMatKhauMoi.SelectedText = "";
             this.txtMatKhauMoi.Size = new System.Drawing.Size(211, 35);
@@ -355,7 +355,7 @@
             this.txtNhapLaiMatKhau.Location = new System.Drawing.Point(629, 434);
             this.txtNhapLaiMatKhau.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.txtNhapLaiMatKhau.Name = "txtNhapLaiMatKhau";
-            this.txtNhapLaiMatKhau.PasswordChar = '\0';
+            this.txtNhapLaiMatKhau.PasswordChar = '*';
             this.txtNhapLaiMatKhau.PlaceholderText = "Nhập lại mật khẩu";
             this.txtNhapLaiMatKhau.SelectedText = "";
             this.txtNhapLaiMatKhau.Size = new System.Drawing.Size(211, 35);
@@ -405,7 +405,6 @@
             this.label9.Size = new System.Drawing.Size(207, 37);
             this.label9.TabIndex = 128;
             this.label9.Text = "Đổi mật khẩu";
-//            this.label9.Click += new System.EventHandler(this.label9_Click);
             // 
             // btnDoiMatKhau
             // 
@@ -429,7 +428,7 @@
             this.btnDoiMatKhau.Size = new System.Drawing.Size(147, 44);
             this.btnDoiMatKhau.TabIndex = 129;
             this.btnDoiMatKhau.Text = "Đổi mật khẩu";
-           // this.btnDoiMatKhau.Click += new System.EventHandler(this.btnDoiMatKhau_Click);
+            this.btnDoiMatKhau.Click += new System.EventHandler(this.btnDoiMatKhau_Click);
             // 
             // btnTimKiem
             // 
